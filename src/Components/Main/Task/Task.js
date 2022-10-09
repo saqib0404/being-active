@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { Children } from 'react';
 import './Task.css';
 import image from './images/profile.png'
 
 const Task = () => {
+    const btnAddBreak = element => {
+        const breakTime = document.getElementById('break-time')
+        breakTime.innerText = element.children[0].innerText;
+        // console.log();
+    }
     return (
         <section className='task'>
             <div className='profile'>
@@ -31,11 +36,11 @@ const Task = () => {
             <div className='break=section'>
                 <h3>Add a Break</h3>
                 <div className='break-buttons'>
-                    <button><span>10</span>s</button>
-                    <button><span>20</span>s</button>
-                    <button><span>30</span>s</button>
-                    <button><span>40</span>s</button>
-                    <button><span>50</span>s</button>
+                    <button onClick={() => btnAddBreak(document.activeElement)}><span>10</span>s</button>
+                    <button onClick={() => btnAddBreak(document.activeElement)}><span>20</span>s</button>
+                    <button onClick={() => btnAddBreak(document.activeElement)}><span>30</span>s</button>
+                    <button onClick={() => btnAddBreak(document.activeElement)}><span>40</span>s</button>
+                    <button onClick={() => btnAddBreak(document.activeElement)}><span>50</span>s</button>
                 </div>
             </div>
 
