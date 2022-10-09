@@ -19,7 +19,7 @@ const Blogs = () => {
             <div className='blog'>
                 <h2 style={{ textAlign: "center" }}><i>Blog-2</i></h2>
                 <h3>What are the differences Between Props and state in react?</h3>
-                <p>Answer: <br /> <br />
+                <p>Answer: </p>
                     <table>
                         <thead>
                             <tr>
@@ -46,7 +46,6 @@ const Blogs = () => {
                             </tr>
                         </tbody>
                     </table>
-                </p>
             </div>
 
             <div className='blog'>
