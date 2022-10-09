@@ -7,7 +7,8 @@ import Blogs from './Blogs/Blogs';
 const Main = () => {
     const addToList = (time) => {
         const exerciseTime = document.getElementById('exercise-time');
-        exerciseTime.innerText = time;
+        // console.log(+exerciseTime.innerText);
+        exerciseTime.innerText = time + (+exerciseTime.innerText);
     }
 
     return (
