@@ -1,5 +1,27 @@
-.Activity-tast-container{
+.Activity-tast-container {
     margin-top: 10vh;
     display: grid;
     grid-template-columns: 4fr 1fr;
+}
+
+@media only screen and (max-width: 992px) {
+    .Activity-tast-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Activity-tast-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .Activity-tast-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 10vh;
+    }
 }
