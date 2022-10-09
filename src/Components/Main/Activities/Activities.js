@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import './Activities.css';
 import Activiy from './Activity/Activiy';
 
-const Activities = () => {
+const Activities = ({addToList}) => {
     const [activities, setActivities] = useState([]);
-
+    // console.log(addToList);
     useEffect(() => {
         fetch('activity.json')
             .then(res => res.json())
@@ -17,6 +17,7 @@ const Activities = () => {
                 activities.map(activity => <Activiy
                 key={activity.id}
                 activity = {activity}
+                addToList={addToList}
                 ></Activiy> )
             }
         </section>

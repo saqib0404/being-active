@@ -1,9 +1,21 @@
-.activity{
+.activity {
     background-color: rgb(236, 233, 233);
     padding: 3%;
     border-radius: 8px;
 }
-.avtivity-img{
+
+.avtivity-img {
     width: 100%;
     border-radius: 8px;
+}
+
+.btn-add {
+    padding: 3% 5%;
+    border: none;
+    background-color: rgb(29, 32, 82);
+    color: white;
+    border-radius: 8px; 
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
 }
