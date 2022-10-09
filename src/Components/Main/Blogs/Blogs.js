@@ -15,6 +15,7 @@ const Blogs = () => {
                     As a result the hole page is not reloaded and it saves a lot of time. It is a short description how reacts work.
                 </p>
             </div>
+
             <div className='blog'>
                 <h2 style={{ textAlign: "center" }}><i>Blog-2</i></h2>
                 <h3>What are the differences Between Props and state in react?</h3>
@@ -47,7 +48,16 @@ const Blogs = () => {
                     </table>
                 </p>
             </div>
-            
+
+            <div className='blog'>
+                <h2 style={{ textAlign: "center" }}><i>Blog-3</i></h2>
+                <h3>What are the uses of useEffect?</h3>
+                <p>Answer: By using this Hook, we tell React that our component needs to do something after render. React will remember the function we passed  and call it later after performing the DOM updates. <br />
+                    1. The useEffect Hook allows us to perform side effects in our components. <br />
+                    2. Some examples of side effects are: fetching data, directly updating the DOM, and timers. <br />
+                </p>
+            </div>
+
         </section>
     );
 };
