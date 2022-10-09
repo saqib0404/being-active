@@ -1,0 +1,20 @@
+.blogs-section{
+    background-color: rgb(12, 14, 46);
+    margin-top: 5%;
+    color: wheat;
+    padding: 3% 0;
+}
+.blog{
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(73, 73, 73);
+    padding: 1% 2%;
+    border-radius: 8px;
+    margin-bottom: 3%;
+}
+.blog table,th,td{
+    border: 1px solid wheat;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 2%;
+}

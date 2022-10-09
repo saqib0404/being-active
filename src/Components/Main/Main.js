@@ -9,14 +9,14 @@ const Main = () => {
         const exerciseTime = document.getElementById('exercise-time');
         exerciseTime.innerText = time;
     }
-    
+
     return (
         <main>
             <section className='Activity-tast-container'>
                 <Activities addToList={addToList}></Activities>
                 <Task></Task>
-                <Blogs></Blogs>
             </section>
+            <Blogs></Blogs>
         </main>
     );
 };
