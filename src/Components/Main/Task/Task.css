@@ -17,7 +17,40 @@ section{
     margin-top: 2rem;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(255, 243, 243);
+    background-color: rgb(255, 255, 255);
     padding: 2%;
     border-radius: 8px;
+}
+.break-buttons{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 2%;
+    background-color: rgb(223, 220, 220);
+}
+.break-buttons button{
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+.activity-details div{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    border-radius: 8px;
+}
+.btn-complete{
+    padding: 5%;
+    border: none;
+    background-color: rgb(29, 32, 82);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
 }
