@@ -1,0 +1,44 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Stretching",
+    "time": 150,
+    "age": 20,
+    "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fit-shirtless-black-man-doing-stretching-before-royalty-free-image-1568733781.jpg",
+  },
+  {
+    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+    "name": "Jumping",
+    "time": 100,
+    "age": 19,
+    "img": "https://image.shutterstock.com/image-photo/fit-young-man-jumping-onto-260nw-642468745.jpg",
+  },
+  {
+    "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+    "name": "Running",
+    "time": 250,
+    "age": 20,
+    "img": "https://img.freepik.com/premium-photo/fit-muscular-arabian-man-running-treadmill-gym_151355-7538.jpg?w=2000",
+  },
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    "name": "Push ups",
+    "time": 60,
+    "age": 15,
+    "img": "https://hips.hearstapps.com/hmg-prod/images/mh-formcheck-index-social-1551985785.png",
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    "name": "Plank",
+    "time": 100,
+    "age": 18,
+    "img": "https://hips.hearstapps.com/hmg-prod/images/hdm119918mh3970-1545237057.png",
+  },
+  {
+    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+    "name": "Boxing",
+    "time": 180,
+    "age": 16,
+    "img": "https://t3.ftcdn.net/jpg/01/75/02/50/360_F_175025000_1ztBSU7H1YgNg48LrGlb4ZxiU9m28E0z.jpg",
+  }
+]
