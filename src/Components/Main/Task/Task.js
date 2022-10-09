@@ -5,9 +5,11 @@ import image from './images/profile.png'
 const Task = () => {
     const btnAddBreak = element => {
         const breakTime = document.getElementById('break-time')
-        breakTime.innerText = element.children[0].innerText;
-        // console.log();
+        const time = element.children[0].innerText;;
+        breakTime.innerText = time;
+        localStorage.setItem("break-time", time)
     }
+    // document.getElementById('break-time').innerText=localStorage.getItem('break-time')
     return (
         <section className='task'>
             <div className='profile'>
