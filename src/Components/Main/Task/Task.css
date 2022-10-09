@@ -1,0 +1,23 @@
+section{
+    border: 1px solid green;
+}
+.task{
+    background-color: rgb(235, 232, 232);
+    padding: 2%;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile-image{
+    width: 60px;
+    border-radius: 50%;
+}
+.personal-details{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 243, 243);
+    padding: 2%;
+    border-radius: 8px;
+}

@@ -1,0 +1,5 @@
+.Activity-tast-container{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
