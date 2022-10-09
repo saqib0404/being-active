@@ -1,5 +1,7 @@
-import React, { Children } from 'react';
+import React from 'react';
 import './Task.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import image from './images/profile.png'
 
 const Task = () => {
@@ -9,7 +11,9 @@ const Task = () => {
         breakTime.innerText = time;
         localStorage.setItem("break-time", time)
     }
-    // document.getElementById('break-time').innerText=localStorage.getItem('break-time')
+
+    const callToast = () => {toast("Wow Activity Completed!")}
+
     return (
         <section className='task'>
             <div className='profile'>
@@ -58,7 +62,10 @@ const Task = () => {
                 </div>
             </div>
 
-            <button className='btn-complete'>Activity Completed</button>
+            <div>
+                <button onClick={callToast} className='btn-complete'>Activity Completed</button>
+                <ToastContainer />
+            </div>
         </section>
     );
 };
